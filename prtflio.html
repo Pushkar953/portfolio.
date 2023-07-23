@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="prtflio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    
+        <header class="header">
+            <a href="#" class="logo">portfolio.</a>
+            <nav class="navbar">
+                <a href="#full-home" style="--i:1;">Home</a>
+                <a href="#about" style="--i:2;">About</a>
+                <a href="#projects" style="--i:3;">Projects</a>
+                <a href="#contact" style="--i:4;">Contact</a>
+            </nav>
+        </header>
+        <div id="full-home">
+            <div id="container">
+                <section class="home">
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="home-content">
+                                    <h3>Hello, It's Me</h3>
+                                    <h1>Pushkar Pandey</h1>
+                                    <h3>And I'm a <span class="multiple-text"></span></h3>
+                                    <p>I am a software engineer with expertise in Front-end Web development. I am constantly expanding my skills and staying up to date with the latest advancement in the field of software development.</p>
+                                    <div class="social">
+                                        <a href="#" style="--i:7;"><i class="fa-brands fa-facebook"></i></a>
+                                        <a href="#" style="--i:8;"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#" style="--i:9;"><i class="fa-brands fa-instagram"></i></a>
+                                        <a href="#" style="--i:10;"><i class="fa-brands fa-linkedin"></i></a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn">Access CV</a>
+                                    </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img src="img3.jpg" alt="" class="home-img">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+    </div>
+        </div>
+        
+    
+    <section class="about" id="about">
+        <div >
+            <img src="img2.jpg" class="about-img" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>I'm currently pursuing B.Tech in Computer Science with a specialization in Artificial Intelligence at ABES Institute of Technology.
+
+                I'm passionate for web development and possess skills in HTML, CSS, Python, and Java. My enthusiasm for learning and development led me to take up internships to gain practical experience.
+                
+                I recently completed an internship with InternPe, where I had an awesome experience and learned more about the development process. Another internship with Code Clause provided me the opportunity to work on distinct front-end projects, including creating an Amazon clone and a personal portfolio website showcasing my skills and achievements as a developer.
+    
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="project-container">
+            <div class="project-box">
+                <i class="fa-brands fa-amazon"></i>
+                <h3>Amazon Clone</h3>
+                <p>This is a similar Front-end site as Amazon, Designed by Me.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="project-box">
+                <i class="fa-solid fa-arrow-up-9-1"></i>
+                <h3>Guess the number</h3>
+                <p>This is a number game.
+                    The player needs to guess a number between 1-100 and if it is same as the value needed to be guessed You Win.
+                    Otherwise a hint is shown to guess the number again. 
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="project-box">
+                <i class="fa-solid fa-dice"></i>
+                <h3>Dice Game</h3>
+                <p>It's a game played between two players.In which the one who reaches 50 first wins the game.
+                    The player is automatically switched if the dice shows 1.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="text" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div >
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by <span id="myName">Pushkar</span> | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#full-home"><i class="fa-solid fa-circle-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+</html>
